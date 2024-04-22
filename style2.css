@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+body{
+    background-color: #fafafa;
+    font-family: arial, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px auto;
+    max-width: 25%;
+    width: 50%;
+    border: 1px solid #130f0f
+}
+
+.container0{
+    height: 50px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px auto;
+    max-width: 25%;
+    width: 50%;
+    border: 1px solid #130f0f
+}
+
+.instalogo{
+        margin: 15px auto;
+        display: flex;
+
+}
+.info{
+    font-size: 13px;
+    font-weight: 600px;
+    line-height: 15px;
+    text-align: center;
+    color: #231f1f;
+    margin-bottom: 15px;
+}
+
+.icon,span{
+    margin: -3px auto;
+    padding: 2px;
+    line-height: 20px;
+    font-weight: 600px;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    height: 40px;
+    color: #e6e6e6;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.icon img{
+    height: 18px;
+    padding: 0 8px 2px;
+}
+
+.or{
+    font-size: 12px;
+    color: #999;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.or hr{
+    width: 120px;
+}
+
+.form{
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+::placeholder{
+    color: #999;
+}
+    
+.terms{
+    line-height: 15px;
+    font-size: 11px;
+    color: #999;
+    margin: 5px 20px ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.terms a{
+    text-decoration: none;
+}
+
+
+.login{
+    background: #fff;
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.login a{
+    text-decoration: none;
+}
